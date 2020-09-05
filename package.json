@@ -1,0 +1,15 @@
+{
+  "name": "tstick-dl",
+  "repository": "https://github.com/weilbyte/tstick-dl",
+  "author": "Weilbyte <git@weilbyte.dev>",
+  "license": "MIT",
+  "scripts": {
+    "start": "functions-framework --target=entry"
+  },
+  "dependencies": {
+    "archiver": "^5.0.0",
+    "axios": "^0.20.0"
+  }, "devDependencies": {
+    "@google-cloud/functions-framework": "^1.7.1"
+  }
+}
